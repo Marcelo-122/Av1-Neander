@@ -5,7 +5,7 @@ Este arquivo implementa o núcleo do simulador:
     - Ciclo fetch-decode-execute
     - Execução contínua e passo a passo
 
-Baseado no trabalho anterior (neander.c), com:
+Baseado na ADO1 (neander.c), com:
     - Opcodes corrigidos conforme especificação do novo trabalho
     - Função executor_step() adicionada (passo a passo)
     - Código reorganizado em módulo separado
