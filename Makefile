@@ -11,7 +11,6 @@ SRCS = $(SRC_DIR)/main.c      \
        $(SRC_DIR)/executor.c   \
        $(SRC_DIR)/display.c
 
-# Regra padrão: compila tudo
 all: $(TARGET)
 
 $(TARGET): $(SRCS)
@@ -21,7 +20,7 @@ $(TARGET): $(SRCS)
 clean:
 	rm -f $(TARGET)
 
-# Atalhos de teste (ajuste o nome dos arquivos conforme necessário)
+# Atalhos de teste
 test-asm:
 	./$(TARGET) asm exemplos/soma.asm
 
